@@ -5,7 +5,7 @@ import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["The Court room Strategist.", "As Advocate & Attorny.", "Ensuring Justice Prevails."],
+    words: ["As Attorny & Arbitator,", "The Court room Strategist,", "Ensuring Justice Prevails."],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 10,
@@ -15,7 +15,7 @@ const LeftBanner = () => {
   return (
     <FadeIn className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal"> Hi, I'm </h4>
+        <h4 className=" text-lg font-bold">Advocate  </h4>
         <h1 className="text-4xl font-bold text-white">
         Naseer<span className="text-designColor capitalize"> Khan Yousafzai</span>
         </h1>
@@ -24,9 +24,7 @@ const LeftBanner = () => {
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Your legal ally for courtroom battles or legal consultations. Justice is always within reach—just a click away.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

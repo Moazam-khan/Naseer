@@ -11,7 +11,10 @@ const Navbar = () => {
   return (
  <div className="w-fullp-4 h-24 sticky top-0 z-50 backdrop-blur-2xl transition-colors bg-bodyColor/70 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-white-600 px-4">
       <div>
-        <img src={logo} alt="logo" />
+      <h1 className="text-5xl font-extrabold text-white hover:text-gray-100 transition duration-300 ease-in-out transform hover:scale-105 hover:drop-shadow-2xl">
+  NKY
+</h1>
+       
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
