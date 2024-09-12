@@ -18,29 +18,29 @@ const Services = () => {
       icon={null}
           />
           <Card
-            title="Civil law"
-            des="Promoting social order and stability."
+            title="Civil Law"
+            des="Promoting social order and stability, Creating a structured society where mutual respect and social responsiblity previal."
       icon={null}
           />
           <Card
-            title="Ciber crime law"
+            title="Cyber Crime Law"
             des="Shields your digital life, protects online rights, and ensure cyber_security."
       icon={null}
           />
           <Card
-            title="Taxation law"
+            title="Taxation Law"
             des="Reducing economic inequality and maintaining Govt accountability."
       icon={null}
       
           />
           
           <Card
-            title="Faimly law"
+            title="Faimly Law"
             des="Protect your legacy, secure the family's will-being and secure your future."
             icon={null}
           />
           <Card
-            title="Election law"
+            title="Election Law"
             des="Ensuring every voice is heard, integrity in every Ballot."
       icon={null}
           />

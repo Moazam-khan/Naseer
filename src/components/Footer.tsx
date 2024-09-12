@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaWhatsapp} from "react-icons/fa";
 
 import { FadeIn } from "./FadeIn";
 
@@ -11,20 +11,20 @@ const Footer = () => {
   NKY
 </h1>
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-            <span className="bannerIcon">
-              <FaYoutube />
-            </span>
-          </a>
+        <a href="https://wa.me/9159475131" target="https://wa.me/9159475131" rel="https://wa.me/9159475131">
+  <span className="bannerIcon">
+    <FaWhatsapp />
+  </span>
+</a>
           <a
-            href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+            href="https://www.linkedin.com/in/naseer-khan-941a27291/"
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100030416370455&mibextid=ZbWKwL" target="_blank">
             <span className="bannerIcon">
               <FaFacebookF />
             </span>
@@ -38,9 +38,9 @@ const Footer = () => {
           Contact Info
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6">
-          <li className="text-lg">Phone: +92 123 456 7890</li>
-          <li className="text-lg">Email: naseer.lawyer@example.com</li>
-          <li className="text-lg">Address: 123 Lawyer Street, Peshawar, Pakistan</li>
+          <li className="text-lg">Phone: 03159475131</li>
+          <li className="text-lg">Email: naseerkhany32@gmail.com</li>
+          <li className="text-lg">Address: Flat 4, Opposite Miniso, Jadoon  Phase II, Abbottabad </li>
         </ul>
       </div>
 
@@ -50,15 +50,15 @@ const Footer = () => {
           Location
         </h3>
         <div className="w-full h-64">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_LINK_HERE"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen={false}
-            loading="lazy"
-            title="Lawyer Location"
-          ></iframe>
+        <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13289.828539885583!2d73.23640483357967!3d34.19083382094724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDExJzI3LjAiTiA3M8KwMTQnMTAuOSJF!5e0!3m2!1sen!2s!4v1694510123456"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen={false}
+  loading="lazy"
+  title="Exact Location"
+/>
         </div>
       </div>
     </FadeIn>

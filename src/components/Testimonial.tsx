@@ -36,7 +36,8 @@ const Testimonial: React.FC = () => {
 
   return (
 
-    <div id="testimonial" className="w-full py-0  border-b-gray-700">
+    <div id="testimonial" className="w-full py-0  border-b-gray-700 bg-blue
+    ">
     <Layout>
    
      
@@ -69,7 +70,7 @@ const Testimonial: React.FC = () => {
                       style={{
                         position: "relative",
                         width: "1300px",
-                        height: "1200px", // Fixed height for consistency
+                        maxHeight: "1200px", // Fixed height for consistency
                         backgroundImage: `url(${item.src})`,
                         backgroundSize: "contain", // This ensures the image covers the entire div
                         backgroundPosition: "center", // Centers the image
