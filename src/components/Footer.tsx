@@ -11,7 +11,7 @@ const Footer = () => {
   NKY
 </h1>
         <div className="flex gap-4">
-        <a href="https://wa.me/9159475131" target="https://wa.me/9159475131" rel="https://wa.me/9159475131">
+        <a href="https://wa.me/+923159475131" target="_blank" rel="noopener noreferrer">
   <span className="bannerIcon">
     <FaWhatsapp />
   </span>
